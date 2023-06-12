@@ -1,6 +1,16 @@
-import { Profile } from './Profile/Profile';
-import profileData from './Profile/profileData.json';
+import { Profile } from './Profile/Profile.jsx';
+import profileData from './Profile/Profile.json';
 
 export const App = () => {
-  return <Profile />;
+  return (
+    <div>
+      <Profile
+        username={profileData.username}
+        tag={profileData.tag}
+        location={profileData.location}
+        avatar={profileData.avatar}
+        stats={profileData.stats}
+      />
+    </div>
+  );
 };
