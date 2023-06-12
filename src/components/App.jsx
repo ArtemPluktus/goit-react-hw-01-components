@@ -3,7 +3,7 @@ import profileData from './Profile/Profile.json';
 import { StatsList } from './Stats/StatsList.jsx';
 import statsData from './Stats/Stats.json';
 import { FriendsList } from './Friends/FriendsList.jsx';
-import friendsData from './Friends/friends.json';
+import friendsData from './Friends/Friends.json';
 import { TransactionHistoryList } from './Transactions/TransactionHistoryList.jsx';
 import transactionData from './Transactions/Transactions.json';
 
